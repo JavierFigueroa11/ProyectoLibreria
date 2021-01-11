@@ -1,0 +1,31 @@
+{
+  "name": "project_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavierFigueroa11/LibraryBackEnd.git"
+  },
+  "author": "JavierFigueroa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JavierFigueroa11/LibraryBackEnd/issues"
+  },
+  "homepage": "https://github.com/JavierFigueroa11/LibraryBackEnd#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.1",
+    "util": "^0.12.3"
+  },
+  "devDependencies": {
+    "material-design-icons-iconfont": "^6.1.0"
+  }
+}

@@ -1,0 +1,32 @@
+version: '3.3'
+services:
+  api:
+    build: ./projectBackend
+    ports:
+      - "5555:5555"
+    depends_on:
+      - db
+    command: node ./app.js
+    environment:
+      WAIT_HOSTS: db:3306
+  db:
+    image: mysql:5.7
+    volumes:
+      - db:/var/lib/mysql/
+      - type: bind
+        source: ./projectBackend/init.sql
+        target: /docker-entrypoint-initdb.d/init.sql
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'biblioteca_jf'
+      MYSQL_USER: 'users_jf'
+      MYSQL_PASSWORD: 'password_jf'
+      MYSQL_ROOT_PASSWORD: 'milano11'
+  front:
+    build: ./proyectofrontend
+    ports:
+      - "8080:8080"
+    command: npm run serve
+volumes:
+  db:
+

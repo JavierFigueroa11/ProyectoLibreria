@@ -21,7 +21,7 @@ services:
       MYSQL_DATABASE: 'biblioteca_jf'
       MYSQL_USER: 'users_jf'
       MYSQL_PASSWORD: 'password_jf'
-      MYSQL_ROOT_PASSWORD: 'milano11'
+      MYSQL_ROOT_PASSWORD: 'secret'
   front:
     build: ./proyectofrontend
     ports:

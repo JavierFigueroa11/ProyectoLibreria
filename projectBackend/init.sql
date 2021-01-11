@@ -35,9 +35,3 @@ create table prestamos(
     CONSTRAINT  FK__prestamos__usuarios__END
         FOREIGN KEY (id_socio) REFERENCES usuarios(id)
 );
-INSERT INTO libros(id_libro,titulo,cantidad)
-VALUES ("1ag5g5889","harrypotter1",5),
-       ("1ag5g6883","harrypotter2",5),
-       ("1ag5g7884","harrypotter3",5),
-       ("1ag5g8886","harrypotter4",5),
-       ("1ag5g9885","harrypotter5",5);

@@ -28,7 +28,7 @@
 
               <v-dialog v-model="dialog" persistent max-width="500px">
                 <template v-slot:activator="{ on }">
-                  <v-btn color="success" dark class="mb-2" v-on="on">Nuevo libro</v-btn>
+                  <v-btn color="success" dark class="mb-2" v-on="on">New Book</v-btn>
                 </template>
 
                 <v-card>
@@ -52,8 +52,8 @@
 
                   <v-card-actions>
                     <v-spacer></v-spacer>
-                    <v-btn color="blue darken-1" text @click="close">Cancelar</v-btn>
-                    <v-btn color="blue darken-1" text @click="validFields">Guardar</v-btn>
+                    <v-btn color="blue darken-1" text @click="close">Cancel</v-btn>
+                    <v-btn color="blue darken-1" text @click="validFields">Save</v-btn>
                   </v-card-actions>
                 </v-card>
               </v-dialog>
@@ -66,7 +66,7 @@
                   <v-card-actions>
                     <v-spacer></v-spacer>
                     <v-btn color="blue darken-1" text @click="confirm = false">Cancelar</v-btn>
-                    <v-btn color="blue darken-1" text @click="actionConfirm">Aceptar</v-btn>
+                    <v-btn color="blue darken-1" text @click="actionConfirm">Accept</v-btn>
                   </v-card-actions>
                 </v-card>
               </v-dialog>

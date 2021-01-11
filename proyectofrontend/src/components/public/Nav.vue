@@ -3,10 +3,10 @@
     <div id="menu">
       <div id="fijo">
         <v-toolbar dark color="black">
-          <v-toolbar-title>Bienvenido <strong style="color:#FFFF00">{{this.$store.state.name}}</strong> a nuestra biblioteca online!</v-toolbar-title>
+          <v-toolbar-title>Welcome <strong style="color:#FFFF00">{{this.$store.state.name}}</strong> to our online library!</v-toolbar-title>
           <v-spacer></v-spacer>
           <v-btn @click="logout" background-color="yellow accent-2">
-            Salir
+            Go Out
           </v-btn>
         </v-toolbar>
       </div>

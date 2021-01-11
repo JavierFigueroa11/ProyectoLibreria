@@ -3,16 +3,16 @@
     <v-spacer></v-spacer>
     <v-tabs color="black" background-color="yellow accent-2" dark slider-color="black">
         <v-tab to="home_admin">
-                Inicio
+                Home
             </v-tab>
             <v-tab to="loans_admin">
-                Préstamos
+                Loans
             </v-tab>
             <v-tab to="book_admin">
-                Libros
+                Books
             </v-tab>
             <v-tab to="partners_admin">
-                Socios
+                Partners
             </v-tab>
     </v-tabs>
     </div>

@@ -23,7 +23,7 @@
         >
           <template v-slot:top>
             <v-toolbar flat color="#2296f3">
-              <v-toolbar-title>Socios</v-toolbar-title>
+              <v-toolbar-title>Partners</v-toolbar-title>
               <v-spacer></v-spacer>
               <v-text-field
                 v-model="searchPartner"

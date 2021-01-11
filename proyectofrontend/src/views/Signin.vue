@@ -10,7 +10,8 @@
           <v-flex xs12 sm4 id="sign-in-text-wrapper">
             <v-layout column align-center justify-center fill-height pa-3>
               <div class="login-wrapper text-xs-center mb-3">
-                <div class="display-1 font-weight-black mb-3">Vamos a leer algo!</div>
+                <div class="display-1 font-weight-black mb-3">¡To read!
+</div>
                 <span class="subheading"></span>
               </div>
               <v-btn
@@ -21,14 +22,15 @@
                 id="sign-in"
                 @click="sendLogin"
                 class="subheading mx-3 white--text"
-              >Iniciar sesión</v-btn>
+              >Login</v-btn>
             </v-layout>
           </v-flex>
           <v-flex xs12 sm8 id="sign-up-envoltorio" class="active">
             <v-layout column align-center justify-center pa-3 mt-5>
               <v-flex xs12 mb-3 mt-5>
                 <div class="login-wrapper text-xs-center">
-                  <div class="display-1 font-weight-black">Crear cuenta</div>
+                  <div class="display-1 font-weight-black">Create Account
+</div>
                 </div>
               </v-flex>
 
@@ -37,7 +39,7 @@
                   <v-text-field
                     full-width
                     single-line
-                    label="Nombre"
+                    label="Name"
                     color="yellow accent-2"
                     prepend-inner-icon="mdi-account-box"
                     v-model="name"
@@ -59,7 +61,7 @@
                     :type="show1 ? 'text' : 'password'"
                     full-width
                     single-line
-                    label="Contraseña"
+                    label="Password"
                     color="yellow accent-2"
                     prepend-inner-icon="mdi-lock-outline"
                     @click:append="show1 = !show1"
@@ -72,7 +74,7 @@
                     :type="show2 ? 'text' : 'password'"
                     full-width
                     single-line
-                    label="Confirmar contraseña"
+                    label="Confirm Password"
                     color="yellow accent-2"
                     prepend-inner-icon="mdi-lock-outline"
                     @click:append="show2 = !show2"
@@ -92,7 +94,7 @@
                   id="sign-up"
                   @click="sendUser"
                   height="50"
-                >Registrarse</v-btn>
+                >Create Account</v-btn>
               </div>
             </v-layout>
           </v-flex>
@@ -160,7 +162,7 @@ export default {
       }
     },
     sendLogin() {
-      this.$router.push("/");
+      this.$router.push("/login");
     }
   }
 };

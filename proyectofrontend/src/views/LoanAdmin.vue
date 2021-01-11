@@ -22,7 +22,7 @@
         >
           <template v-slot:top>
             <v-toolbar flat color="#2296f3">
-              <v-toolbar-title>Préstamos</v-toolbar-title>
+              <v-toolbar-title>Loans</v-toolbar-title>
 
               <v-spacer></v-spacer>
               <v-col cols="12" md="3" sm="2">
@@ -61,7 +61,7 @@
                   <v-card-actions>
                     <v-spacer></v-spacer>
                     <v-btn color="blue darken-1" text @click="confirm = false">Cancelar</v-btn>
-                    <v-btn color="blue darken-1" text @click="deleteLoan(itemDelete)">Aceptar</v-btn>
+                    <v-btn color="blue darken-1" text @click="deleteLoan(itemDelete)">Accept</v-btn>
                   </v-card-actions>
                 </v-card>
               </v-dialog>

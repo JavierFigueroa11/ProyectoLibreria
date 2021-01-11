@@ -10,7 +10,7 @@
           <div class="container-login100">
             <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54" p-l-55>
               <form class="login100-form validate-form">
-                <span class="login100-form-title p-b-30">Iniciar sesión</span>
+                <span class="login100-form-title p-b-30">Login</span>
 
                 <v-text-field
                   full-width
@@ -30,7 +30,7 @@
                   :type="show1 ? 'text' : 'password'"
                   full-width
                   single-line
-                  label="Contraseña"
+                  label="Password"
                   color="yellow accent-2"
                   prepend-inner-icon="mdi-lock-outline"
                   @click:append="show1 = !show1"
@@ -47,18 +47,19 @@
                     @click="auth"
                     class="login100-form-btn"
                     dark
-                  >Iniciar</v-btn>
+                  >Login</v-btn>
                 </div>
 <br>
                 <div class="flex-col-c p-t-50">
                   <p class="ma-1">
-                    ¿Aún no tienes una cuenta?
+Do not you have an account yet?
                     <v-btn
                       rounded
                       color="black"
                       class="subheading mx-3 white--text"
                       to="/signin"
-                    >Crear cuenta</v-btn>
+                    >Create Account
+</v-btn>
                   </p>
                 </div>
               </form>

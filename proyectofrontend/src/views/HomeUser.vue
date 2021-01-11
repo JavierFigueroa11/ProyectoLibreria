@@ -13,7 +13,7 @@
           <v-flex md12 class="margins">
             <v-card>
               <v-card-title primary-title class="card font-weight-light">
-                <v-icon color="white" class="margin-icon">fas fa-book</v-icon>Nuestros libros
+                <v-icon color="white" class="margin-icon">fas fa-book</v-icon>Ours Books
               </v-card-title>
               <v-data-table
                 :headers="listBooks"
@@ -38,7 +38,8 @@
             <v-card class="overflow-hidden" color="blue lighten-1" dark>
               <v-toolbar flat color="blue">
                 <v-icon class="margin-icon">fas fa-book-reader</v-icon>
-                <v-toolbar-title class="font-weight-light">Realice un préstamo</v-toolbar-title>
+                <v-toolbar-title class="font-weight-light">Make a Loan
+</v-toolbar-title>
                 <v-spacer></v-spacer>
                 <v-btn color="blue darken-3" fab small @click="isEditing = !isEditing">
                   <v-icon v-if="!isEditing">mdi-close</v-icon>
@@ -75,7 +76,8 @@
               <!-- Confirm post loan -->
               <v-card-actions>
                 <v-spacer></v-spacer>
-                <v-btn :disabled="!isEditing" color="success" @click="controlLoan">Crear Préstamo</v-btn>
+                <v-btn :disabled="!isEditing" color="success" @click="controlLoan">Create Loans
+o</v-btn>
               </v-card-actions>
               <v-dialog v-model="confirm" persistent max-width="450">
                 <v-card>
@@ -85,8 +87,8 @@
                   <v-card-text>{{aboutConfirm}}</v-card-text>
                   <v-card-actions>
                     <v-spacer></v-spacer>
-                    <v-btn color="blue darken-1" text @click="confirm = false">Cancelar</v-btn>
-                    <v-btn color="blue darken-1" text @click="actionConfirm">Aceptar</v-btn>
+                    <v-btn color="blue darken-1" text @click="confirm = false">Cancel</v-btn>
+                    <v-btn color="blue darken-1" text @click="actionConfirm">Accept</v-btn>
                   </v-card-actions>
                 </v-card>
               </v-dialog>
@@ -97,7 +99,7 @@
           <v-flex md12 class="margins">
             <v-card>
               <v-card-title primary-title class="card font-weight-light">
-                <v-icon color="white" class="margin-icon">fas fa-tasks</v-icon>Mis préstamos
+                <v-icon color="white" class="margin-icon">fas fa-tasks</v-icon>My Loans
               </v-card-title>
               <v-data-table
                 :headers="listLoans"

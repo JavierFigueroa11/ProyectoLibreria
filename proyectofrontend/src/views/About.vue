@@ -14,12 +14,12 @@
           >
             mdi-magnify
           </v-icon>
-          <h2 class="display-1 white--text font-weight-light">2019-Premio IFLA</h2>
+          <h2 class="display-1 white--text font-weight-light">2019-Award IFLA</h2>
         </v-card-title>
         <v-container>
           <v-row>
             <v-col cols="12" md="10">
-             La Federación Internacional de Asociaciones e Instituciones Bibliotecarias (IFLA) es el organismo internacional líder que representa los intereses de los servicios bibliotecarios y de información y sus usuarios. Es la voz mundial de la profesión bibliotecaria y de la información.
+             The International Federation of Library Associations and Institutions (IFLA) is the leading international body representing the interests of library and information services and their users. It is the global voice of the library and information profession.
             </v-col>
             <v-col
               class="hidden-sm-and-down text-right"
@@ -40,7 +40,7 @@
     >
       <v-card>
         <v-card-title class="amber accent-4 justify-end">
-          <h2 class="display-1 mr-4 white--text font-weight-light">2017-Premio ABGRA</h2>
+          <h2 class="display-1 mr-4 white--text font-weight-light">2017-Award ABGRA</h2>
           <v-icon
             dark
             size="42"
@@ -49,7 +49,7 @@
         <v-container>
           <v-row>
             <v-col cols="12" md="8">
-            Ser reconocido como un Centro de referencia en la gestión, organización, desarrollo, preservación y diseminación del nuevo conocimiento producido en la Universidad a través de la creación de colecciones digitales y electrónicas propias.            </v-col>
+            To be recognized as a reference Center in the management, organization, development, preservation and dissemination of the new knowledge produced at the University through the creation of its own digital and electronic collections.</v-col>
             <v-col cols="12" md="4">
             </v-col>
           </v-row>
@@ -64,7 +64,7 @@
     >
       <v-card>
         <v-card-title class="red lighten-1 justify-end">
-          <h2 class="display-1 mr-4 white--text font-weight-light">2010-Creacion de la Biblioteca</h2>
+          <h2 class="display-1 mr-4 white--text font-weight-light">2010-Library Creation</h2>
           <v-icon
             dark
             size="42"
@@ -78,7 +78,7 @@
               <v-icon size="64">mdi-server-network</v-icon>
             </v-col>
             <v-col cols="12" md="10">
-              La "Biblioteca Javier Figueroa" se creo el 5 de Diciembre de 2010
+              The "Library Javier Figueroa" It was created on December 5, 2010
             </v-col>
           </v-row>
         </v-container>

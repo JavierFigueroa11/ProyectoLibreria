@@ -9,17 +9,17 @@
         height="200px"
         src="https://diferencias.es/wp-content/uploads/2019/02/library-869061_1920-1-1024x683.jpg"
       >
-        <v-card-title>Biblioteca-Javier Figueroa</v-card-title>
+        <v-card-title>Library-Javier Figueroa</v-card-title>
       </v-img>
 
       <v-card-subtitle class="pb-0">Córdoba-Embalse</v-card-subtitle>
 
       <v-card-text class="text--primary">
-        <div>Barrio Comercial</div>
+        <div>District :Barrio Comercial</div>
 
-        <div>Avenida Gral. Pistarini 387</div>
+        <div>Avenue Gral. Pistarini 387</div>
 
-        <div>Telefono : 3571317529 | Horarios de atencion 8:00 HS Hasta 20.30 HS</div>
+        <div>CellPhone : 3571317529 | Attention hours 8:00 am until 8:30 pm </div>
 
       </v-card-text>
 
@@ -48,13 +48,14 @@
         height="200px"
         src="https://atalayar.com/sites/default/files/styles/foto_/public/noticias/redes-sociales.%20Foto%201.jpg?itok=R7KvkPJ5"
       >
-        <v-card-title class="color='black'">Encontranos en Nuestras Redes</v-card-title>
+        <v-card-title class="color='black'">
+Find us in our social networks</v-card-title>
       </v-img>
 
       <v-card-subtitle class="pb-0">Córdoba-Embalse</v-card-subtitle>
 
       <v-card-text class="text--primary">
-        <div>Facebook: Biblioteca Javier Figueroa</div>
+        <div>Facebook: Library Javier Figueroa</div>
 
         <div>Instagram: @bibliotecaJF</div>
 

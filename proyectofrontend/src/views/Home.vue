@@ -13,7 +13,7 @@
         max-height="500"
       >
       <v-col class="text-center" cols="12">
-        <h1 class="yellow accent-2--text">"La Mejor Biblioteca Online de Argentina"</h1>
+        <h1 class="yellow accent-2--text">"The Best Online Library in Argentina"</h1>
       </v-col>
       </v-carousel-item>
       </v-carousel>

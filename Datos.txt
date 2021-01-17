@@ -1,0 +1,10 @@
+sudo docker run -d -p 33060:3306 --name db -e MYSQL_ROOT_PASSWORD=secret mysql
+sudo docker exec -it db mysql -p
+sudo docker rm -f db
+sudo docker volume prune
+sudo docker volume create db
+sudo docker run -d -p 33060:3306 --name db -e MYSQL_ROOT_PASSWORD=secret --mount src=db,dst=/var/lib/mysql mysql
+sudo docker exec -it db mysql -p
+CREATE USER 'users_jf'@'db' IDENTIFIED BY 'password_jf';
+GRANT ALL PRIVILEGES ON * . * TO 'users_jf'@'db';
+FLUSH PRIVILEGES;

@@ -21,7 +21,7 @@ app.use(cors({
 }));
 
 var con = mysql.createConnection({
-    host: 'db', //No me funciona ni db, root, localhost ¿Solucion?
+    host: 'db',
     user: 'users_jf',
     password: 'password_jf',
     database: 'biblioteca_jf'
